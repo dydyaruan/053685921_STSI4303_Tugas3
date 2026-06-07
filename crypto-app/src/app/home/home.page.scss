@@ -1,0 +1,42 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.refresh-btn {
+  width: 120px;
+  --border-radius: 6px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.crypto-card {
+  background-color: #fdf5e2; /* Warna krem kekuningan sesuai gambar soal */
+  border: 1px solid #e2d2b2;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 8px 4px;
+  display: flex;
+  align-items: center;
+}
+
+.label-text {
+  font-size: 0.75rem;
+  color: #7c7462;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.value-text {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.price-text {
+  font-size: 1.05rem;
+}
