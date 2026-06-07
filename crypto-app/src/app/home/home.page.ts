@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 })
 export class HomePage implements OnInit {
   cryptoData: any[] = [];
-  apiUrl = '  /'; // URL API sesuai soal
+  apiUrl = '  https://api.coinlore.net/api/tickers//'; // URL API sesuai soal
 
   constructor(private http: HttpClient) {}
 
